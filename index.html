@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Bruno+Ace+SC&family=Dancing+Script:wght@700&family=Indie+Flower&family=Libre+Baskerville&family=Poppins:wght@400;600&family=Press+Start+2P&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="nav__bar">
+      <h1>
+        <a href="/"> Logo </a>
+      </h1>
+      <ul class="nav__bar__list">
+        <li><a href="/">Flight + Hotel</a></li>
+        <li><a href="/">Hotels & Home</a></li>
+        <li><a href="/">Flights</a></li>
+        <li><a href="/">Coupons & Deals</a></li>
+        <li><a href="/">Airpots Transfer</a></li>
+        <li><a href="/">Activities</a></li>
+        <li><a href="/">...</a></li>
+      </ul>
+      <div>Rs.</div>
+      <div class="buttons">
+        <button class="sign__in__btn">Sign in</button>
+        <button class="create__acc__btn">Create Account</button>
+      </div>
+      <div class="cart">
+        <img src="cart.svg" alt="cart" height="20" />
+      </div>
+      <div class="hamburger__menu">
+        <span class="bars"></span>
+        <span class="bars"></span>
+        <span class="bars"></span>
+      </div>
+    </div>
+    <div class="serach__bar">
+      <form action="/" method="post">
+        <div>
+          <img src="search.svg" alt="search" height="20" />
+          <input type="text" placeholder="Place" />
+        </div>
+        <div>
+          <img src="calendar-heart-fill.svg" alt="calendar" height="20" /><input
+            type="date"
+          />
+        </div>
+        <div>
+          <img src="calendar-check-fill.svg" alt="calendar" height="20" /><input
+            type="date"
+          />
+        </div>
+        <button class="submit__btn">Search</button>
+      </form>
+    </div>
+    <div class="main__window">
+      <div class="filters">
+        <p>Sort</p>
+        <button>Best Match</button>
+        <button>Lowest Price First</button>
+        <button>Top Reveiwed</button>
+        <button>Distance</button>
+        <button>Hot Deals!</button>
+      </div>
+      <div class="hotel__lists">
+        <div class="hotel__card">
+          <img src="hotel.jpg" alt="hotel-img" />
+          <div class="hotel__details">
+            <h2>Hotel Adikta 5 star Hotel</h2>
+            <div style="display: flex; gap: 13px; align-items: center">
+              <p>⭐⭐⭐⭐⭐</p>
+              <span style="color: rgb(20, 20, 186)"
+                ><img
+                  src="geo.svg"
+                  alt="map"
+                  style="height: 20px; width: auto; margin-right: 5px"
+                />Kalyan Gaon, Maharashtra</span
+              >
+            </div>
+            <p style="margin-top: 10px; font-weight: bold; color: grey">
+              This Property Offers
+            </p>
+            <span
+              style="display: flex; gap: 3px; margin-top: 6px"
+              class="facilities"
+            >
+              <p>Breakfast</p>
+              <p>Swimming Pool</p>
+              <p>Russians</p>
+            </span>
+            <p style="margin-top:10px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam in, quae omnis quo natus accusamus aspernatur mollitia explicabo iste. Enim veritatis a modi aperiam iusto ducimus perferendis animi aliquid dolore?</p>
+          </div>
+          <div class="price__details">
+            <div
+            class="reviews"
+            >
+              <span>
+                <h2>Excellent</h2>
+                <p style="color: grey">3000 reviews</p>
+              </span>
+              <p
+                style="
+                  height: 50px;
+                  width: 50px;
+                  background-color: rgb(104, 208, 44);
+                  border-radius: 100%;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  color: white;
+                  font-weight: bold;
+                "
+              >
+                9.0
+              </p>
+            </div>
+            <div class="price">
+              <h1 >10,000</h1>
+              <h2 style="text-decoration: line-through; color: red">8,000</h2>
+              <span style="display: flex; gap: 5px; color: rgb(10, 122, 10);font-weight: bold;font-size: 1.3rem;">
+                Rs.
+                <p>2000</p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
